@@ -4,7 +4,7 @@
   "description": "This is chatting application.",
   "main": "index.js",
   "scripts": {
-    "build":"npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
+    "build": "npm install --prefix backend && npm install --prefix frontend && npm run build --prefix frontend",
     "start": "npm run start --prefix backend"
   },
   "repository": {
@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Mridul9A/aChat/issues"
   },
-  "homepage": "https://github.com/Mridul9A/aChat#readme"
+  "homepage": "https://github.com/Mridul9A/aChat#readme",
+  "dependencies": {
+    "mongoose": "^8.9.6"
+  }
 }
